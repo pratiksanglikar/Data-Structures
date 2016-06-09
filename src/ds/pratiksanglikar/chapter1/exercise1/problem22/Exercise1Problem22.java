@@ -35,14 +35,24 @@ public class Exercise1Problem22 {
 	}
 
 	/**
-	 * @return
+	 * generates the random key to be found in the array.
+	 * As we have assumed that the numbers in the array will be between 
+	 * 0 and 104, the random key will be generated as a number between 0 and 104.
+	 * 
+	 * @return key to be found.
 	 */
 	private static int getRandomKey() {
 		return StdRandom.uniform(1, 104);
 	}
 
 	/**
-	 * @return
+	 * initializes the random array of numbers.
+	 * As we don't want duplicate keys to be present in the array, 
+	 * we generate each number as randomly between a range.
+	 * Thus, this function generates random, but predictable sequence of numbers 
+	 * eliminating the duplicates.
+	 * 
+	 * @return array of semi-random numbers.  
 	 */
 	private static int[] initializeRandomArray() {
 		int[] inputArray = new int[25];

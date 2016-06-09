@@ -48,8 +48,9 @@ public class Exercise1Problem20 {
 	}
 
 	/**
-	 * @param n
-	 * @return
+	 * returns ln(n) 
+	 * @param n of which the log needs to be calculated.
+	 * @return ln(n)
 	 */
 	private static double ln(long n) {
 		return Math.log(n);

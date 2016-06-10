@@ -17,7 +17,7 @@ import ds.pratiksanglikar.lib.StdRandom;
  * 
  * @author Pratik Sanglikar
  */
-public class Exercise1Problem15 {
+public class Ch1Exercise1Problem15 {
 
 	/**
 	 * the main entry point of the program.

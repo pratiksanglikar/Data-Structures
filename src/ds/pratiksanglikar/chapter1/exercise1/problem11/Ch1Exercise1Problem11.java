@@ -14,7 +14,7 @@ import ds.pratiksanglikar.lib.StdRandom;
  *
  * @author Pratik Sanglikar
  */
-public class Exercise1Problem11 {
+public class Ch1Exercise1Problem11 {
 
 	private static boolean[][] twoDArray = new boolean[5][5];
 

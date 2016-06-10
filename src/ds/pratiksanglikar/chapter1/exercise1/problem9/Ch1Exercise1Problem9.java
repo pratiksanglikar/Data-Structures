@@ -9,7 +9,7 @@ package ds.pratiksanglikar.chapter1.exercise1.problem9;
  * into a String s. 
  * @author Pratik Sanglikar
  */
-public class Exercise1Problem9 {
+public class Ch1Exercise1Problem9 {
 
 	/**
 	 * Main entry point of the program.

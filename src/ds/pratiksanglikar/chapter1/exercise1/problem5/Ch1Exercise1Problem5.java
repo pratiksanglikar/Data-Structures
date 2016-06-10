@@ -11,7 +11,7 @@ package ds.pratiksanglikar.chapter1.exercise1.problem5;
  * 
  * @author Pratik Sanglikar
  */
-public class Exercise1Problem5 {
+public class Ch1Exercise1Problem5 {
 
 	/**
 	 * Main entry point of the program.

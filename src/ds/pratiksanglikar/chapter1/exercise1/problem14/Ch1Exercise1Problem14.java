@@ -14,7 +14,7 @@ import ds.pratiksanglikar.lib.StdOut;
  * 
  * @author Pratik Sanglikar
  */
-public class Exercise1Problem14 {
+public class Ch1Exercise1Problem14 {
 
 	/**
 	 * the main entry point of the program

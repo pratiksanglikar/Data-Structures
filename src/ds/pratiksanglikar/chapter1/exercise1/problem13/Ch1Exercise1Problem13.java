@@ -14,7 +14,7 @@ import ds.pratiksanglikar.lib.StdRandom;
  * 
  * @author Pratik Sanglikar
  */
-public class Exercise1Problem13 {
+public class Ch1Exercise1Problem13 {
 	
 	private static int[][] twoDMatrix = new int[5][3];
 	

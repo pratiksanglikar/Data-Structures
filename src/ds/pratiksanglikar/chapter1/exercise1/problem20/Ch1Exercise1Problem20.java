@@ -12,7 +12,7 @@ import ds.pratiksanglikar.lib.StdOut;
  * 
  * @author Pratik Sanglikar
  */
-public class Exercise1Problem20 {
+public class Ch1Exercise1Problem20 {
 	
 	private static long[] factorialCache = new long[50]; 
 

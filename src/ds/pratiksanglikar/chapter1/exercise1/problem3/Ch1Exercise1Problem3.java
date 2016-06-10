@@ -9,7 +9,7 @@ package ds.pratiksanglikar.chapter1.exercise1.problem3;
  * if all three are equal, and not equal otherwise.
  * @author Pratik Sanglikar
  */
-public class Exercise1Problem3 {
+public class Ch1Exercise1Problem3 {
 
 	/**
 	 * Main entry point of the program.

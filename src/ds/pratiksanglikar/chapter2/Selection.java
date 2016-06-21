@@ -7,10 +7,10 @@ package ds.pratiksanglikar.chapter2;
  * <pre>
  * Implementation of Selection Sort Algorithm.
  * 
- * &#64;author Pratik Sanglikar
+ * @author Pratik Sanglikar
  * </pre>
  */
-public class Selection {
+public class Selection implements Sort {
 
 	/**<pre>
 	 * Sorts the array.
@@ -19,7 +19,7 @@ public class Selection {
 	 * </pre>
 	 */
 	@SuppressWarnings("rawtypes")
-	public static void sort(Comparable[] array) {
+	public void sort(Comparable[] array) {
 		int arraySize = array.length;
 		for (int i = 0; i < arraySize; i++) {
 			int minIndex = i;

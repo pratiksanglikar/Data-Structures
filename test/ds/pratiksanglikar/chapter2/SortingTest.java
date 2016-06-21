@@ -15,9 +15,10 @@ import ds.pratiksanglikar.lib.StdRandom;
  * @author Pratik Sanglikar
  *
  */
-public class SelectionTest {
+public class SortingTest {
 
 	Double[] array;
+	Sort sortingStrategy;
 
 	@Before
 	public void intializeArray() {
@@ -26,14 +27,26 @@ public class SelectionTest {
 		for (int i = 0; i < array.length; i++) {
 			array[i] = StdRandom.uniform(0.00, 10000.00);
 		}
-		SortingUtilities.show(array);
 	}
 
 	@Test
+	public void selectionSortTest() {
+		sortingStrategy = new Selection();
+		test();
+	}
+	
+	@Test
+	public void insertionSortTest() {
+		sortingStrategy = new Insertion();
+		test();
+	}
+	
 	public void test() {
+		StdOut.println("\n");
+		SortingUtilities.show(array);
 		assertFalse("The randomly generated array must not be sorted first.", SortingUtilities.isSorted(array));
-		Selection.sort(array);
-		StdOut.print("\n");
+		sortingStrategy.sort(array);
+		StdOut.print("\n After sorting: ");
 		SortingUtilities.show(array);
 		assertTrue("After applying selection sort, the array must be sorted.", SortingUtilities.isSorted(array));
 	}

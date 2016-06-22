@@ -41,6 +41,11 @@ public class SortingTest {
 		test();
 	}
 	
+	@Test
+	public void shellSort() {
+		fail("Not Implemented yet!");
+	}
+	
 	public void test() {
 		StdOut.println("\n");
 		SortingUtilities.show(array);

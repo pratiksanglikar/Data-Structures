@@ -69,13 +69,14 @@ public class SortCompare {
 	}
 
 	/**
+	 * <pre>
 	 * main entry point of the program.
 	 * 
 	 * @param args command line arguments,
 	 * 			1. First algorithm to compare
 	 * 			2. Second algorithm to compare.
 	 * 			3. number of arrays to compare.
-	 * 			4. length of each array.
+	 * 			4. length of each array. </pre>
 	 */
 	public static void main(String[] args) {
 		if (args.length != 4) {

@@ -34,19 +34,19 @@ public class SortingTest {
 		sortingStrategy = new Selection();
 		test();
 	}
-	
+
 	@Test
 	public void insertionSortTest() {
 		sortingStrategy = new Insertion();
 		test();
 	}
-	
+
 	@Test
 	public void shellSortTest() {
 		sortingStrategy = new Shell();
 		test();
 	}
-	
+
 	public void test() {
 		StdOut.println("\n");
 		SortingUtilities.show(array);

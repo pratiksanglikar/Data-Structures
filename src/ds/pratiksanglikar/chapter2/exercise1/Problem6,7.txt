@@ -1,0 +1,16 @@
+Chapter 2, Exercise 1, Problem 6
+
+Which method runs faster for an array with all keys identical, selection sort or insertion sort?
+
+- I think that this would be similar to when the array is already sorted, 
+so that insertion sort will be linear, and the selection sort quadratic.
+
+------------------------------------------------------------------------------------------------------
+
+Chapter 2, Exercise 1, Problem 7
+
+Which method runs faster for an array in reverse order, selection sort or insertion sort?
+
+- I think that they would run similarly, since the values at every position will have to be changed. 
+The worst case scenario for insertion sort is reverse order, so that would mean it is quadratic, 
+and then the selection sort would already be quadratic as well.

@@ -1,0 +1,7 @@
+Chapter 2, Exercise 1, Problem 2
+
+What is the maximum number of exchanges involving any particular element during selection sort? 
+What is the average number of exchanges involving an element?
+
+Maximum number of exchanges in selection sort can be N
+On an average NLogN exchanges are involved.

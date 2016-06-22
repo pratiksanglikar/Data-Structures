@@ -1,0 +1,5 @@
+Chapter 2, Exercise 1, Problem 10
+
+Why not use selection sort for h-sorting in shellsort?
+
+Because Insertion sort works best when the keys are partially sorted.

@@ -29,6 +29,10 @@ public class SortCompare {
 			sortingStrategy = new Insertion();
 		} else if (algorithm.equalsIgnoreCase("Selection")) {
 			sortingStrategy = new Selection();
+		} else if(algorithm.equalsIgnoreCase("Shell")) {
+			sortingStrategy = new Shell();
+		} else {
+			throw new RuntimeException("Unknown sorting strategy.");
 		}
 		sortingStrategy.sort(array);
 		return timer.elapsedTime();

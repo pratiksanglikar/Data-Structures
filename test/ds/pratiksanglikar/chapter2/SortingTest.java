@@ -42,8 +42,9 @@ public class SortingTest {
 	}
 	
 	@Test
-	public void shellSort() {
-		fail("Not Implemented yet!");
+	public void shellSortTest() {
+		sortingStrategy = new Shell();
+		test();
 	}
 	
 	public void test() {

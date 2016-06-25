@@ -46,6 +46,12 @@ public class SortingTest {
 		sortingStrategy = new Shell();
 		test();
 	}
+	
+	@Test
+	public void mergeSortTest() {
+		sortingStrategy = new Merge();
+		test();
+	}
 
 	public void test() {
 		StdOut.println("\n");

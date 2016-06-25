@@ -31,6 +31,8 @@ public class SortCompare {
 			sortingStrategy = new Selection();
 		} else if(algorithm.equalsIgnoreCase("Shell")) {
 			sortingStrategy = new Shell();
+		} else if(algorithm.equalsIgnoreCase("Merge")) {
+			sortingStrategy = new Merge();
 		} else {
 			throw new RuntimeException("Unknown sorting strategy.");
 		}

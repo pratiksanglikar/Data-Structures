@@ -52,6 +52,12 @@ public class SortingTest {
 		sortingStrategy = new Merge();
 		test();
 	}
+	
+	@Test
+	public void quickSortTest() {
+		sortingStrategy = new Quick();
+		test();
+	}
 
 	public void test() {
 		StdOut.println("\n");

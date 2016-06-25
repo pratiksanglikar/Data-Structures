@@ -52,10 +52,10 @@ public class Merge implements Sort {
 	 * merges two sorted parts of an array. 
 	 * Uses an auxilary array of array's size while merging.
 	 * 
-	 * &#64;param array to be merged.
-	 * &#64;param low lower bound.
-	 * &#64;param mid 
-	 * &#64;param high higher bound.
+	 * @param array to be merged.
+	 * @param low lower bound.
+	 * @param mid 
+	 * @param high higher bound.
 	 * </pre>
 	 */
 	@SuppressWarnings("rawtypes")

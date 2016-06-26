@@ -33,6 +33,8 @@ public class SortCompare {
 			sortingStrategy = new Shell();
 		} else if(algorithm.equalsIgnoreCase("Merge")) {
 			sortingStrategy = new Merge();
+		} else if(algorithm.equalsIgnoreCase("BottomUpMerge")) {
+			sortingStrategy = new MergeBottomUp();
 		} else if(algorithm.equalsIgnoreCase("Quick")){
 			sortingStrategy = new Quick();
 		}else {

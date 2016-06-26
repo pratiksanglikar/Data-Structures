@@ -54,6 +54,12 @@ public class SortingTest {
 	}
 	
 	@Test
+	public void bottomUpMergeSortTest() {
+		sortingStrategy = new MergeBottomUp();
+		test();
+	}
+	
+	@Test
 	public void quickSortTest() {
 		sortingStrategy = new Quick();
 		test();
